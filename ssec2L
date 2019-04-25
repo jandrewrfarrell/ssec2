@@ -213,6 +213,7 @@ else
                 \\\"InstanceType\\\":\\\"$TYPE\\\", \
                 \\\"KeyName\\\":\\\"$KEY_NAME\\\", \
                 \\\"SecurityGroups\\\": [\\\"$SECURITY_GROUP\\\"], \
+		\\\"Placement\\\": { \\\"AvailabilityZone\\\": \\\"us-east-1f\\\" }, \
                 \\\"Monitoring\\\": { \\\"Enabled\\\": true }"
     if [ "$#" -gt "0" ]
     then
